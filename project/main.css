@@ -3,6 +3,14 @@ body {
     background-color: white;
 }
 
+
+hr {
+    width:555px;
+}
+
+
+
+/*네비게이션*/
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -40,11 +48,16 @@ header {
 
 .nav-top {
     padding-left: 18px;
-    padding-top: 15px;
+    padding-top: 13px;
     padding-right: 10px;
     margin-right: auto;
 }
+/*네비게이션*/
 
+
+
+
+/*메뉴*/
 .nav-menu {
     padding-top: px;
 }
@@ -130,8 +143,11 @@ header {
 .menubar p{
     clear:left;
 }
+/*메뉴*/
 
 
+
+/*프론트 페이지 커버*/
 .cover {
     position: relative;
     
@@ -156,20 +172,25 @@ header {
 .slogan {
     margin-top: 80px;
     margin-bottom: 0px; 
-    
+    margin-left: 2px;
+    font-weight: bolder;    
 }
 
 .sub_slogan {
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 3px;
     margin-bottom: 20px;
-    font-weight: 540;
+    font-weight: lighter;
     font-size: 32px;
 }
 
 .subscribe {
     margin-left: 8px;
 }
+/*프론트 페이지 커버*/
+
+
+
 
 
 /* 상품 소개 */
@@ -340,39 +361,34 @@ header.special {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
-
-
-
-
-
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+}
 /* 상품 소개 */
 
 
 
 
-
+/*푸터*/
 footer {
     left:0px; 
     bottom:0px; 
-    height:350px; 
+    height:250px; 
     width:100%; 
     background-color: darkslategray; 
     color: white;
     list-style-type: none;
+    text-align: center;
 }
 
-.footer_bottom {
-    margin-left: 200px;
+.footer_img {
+    
+    margin: 20px;
 }
-
+    
 .footer_script {
-    margin-top: 50px;
-    margin-left: 200px;
+    text-align: center;
 }
-
-
-
+/*푸터*/
 
 
