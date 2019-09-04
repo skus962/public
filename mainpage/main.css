@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+hr {
+    //width:700px;
+}
+
+
+
+/*네비게이션*/
+.navbar-default {   
+   background-color: white;
+   border-color: #CFCFCF;
+   padding-right: 10px;
+}
+/*네비게이션*/
+
+
+
+
+/*메뉴*/
+.nav-menu {
+    padding-top: px;
+}
+
+.menubar{
+    border:none;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.menubar ul{
+    height:50px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.menubar li{
+    float:left;
+    padding:0px;
+}
+
+.menubar li a{
+    display:block;
+    font-weight:normal;
+    line-height:50px;
+    margin:0px;
+    padding:0px 25px;
+    text-align:center;
+    text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+    text-decoration:none;
+}
+
+.menubar li ul{
+    display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+}
+
+.menubar li:hover ul{
+    display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+    background: white;
+    display:block;
+    float:none;
+    margin:0px;
+    padding:0px;
+    width:200px;
+}
+
+.menubar li:hover li a{
+    background:none;
+}
+
+.menubar li ul a{
+    display:block;
+    height:50px;
+    font-size:12px;
+    font-style:normal;
+    margin:0px;
+    padding:0px 10px 0px 15px;
+    text-align:left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+    border:0px;
+    text-decoration:none;
+}
+
+.menubar p{
+    clear:left;
+}
+/*메뉴*/
+
+
+
+
+
+/*반응형 중간 이미지*/
+
+.front_page1 {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.front_page2 {
+    max-width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .front_page1 {
+        height: 0;
+        padding-top: 80.531%;
+        background: url(image/img_etc3.png) center no-repeat;
+        background-size: contain;
+        margin-top: 50px;
+    }
+    .front_page1 img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .front_page2 {
+        height: 0;
+        padding-top: 69.531%;
+        background: url(image/beer_image3.png) center no-repeat;
+        background-size: contain;
+        margin-top: -20px;
+    }
+    .front_page2 img {
+        display: none;
+    }
+}
+
+/**/
+
+
+
+
+
+
+
+/*프론트 페이지 커버*/
+.cover {
+    position: relative;
+}
+
+@media screen and (max-width: 1050px) {
+    .cover {
+        text-align: center; } }
+
+.front_page {
+    max-width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 9080px) {
+#jumbo_text {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-family: 'onigothic', sans-serif;
+    font-size: 34px;
+    color: white; }
+}
+
+@media screen and (max-width: 1050px) {
+
+  #jumbo_text{
+    text-align: center;
+    top: 0px; 
+    left: 20px;
+    right: 20px;
+    padding-top: 50px;
+  }
+  #jumbo_text h1{
+    font-size: 25px;
+  }
+  #jumbo_text p{
+    font-size: 25px;
+  }
+  #jumbo_text img{
+    height: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+
+  #jumbo_text{
+    text-align: center;
+    top: 0px; 
+    left: 20px;
+    right: 20px;
+    padding-top: 30px;
+    font-size: 10px;
+  }
+  #jumbo_text h1{
+    font-size: 18px;
+  }
+  #jumbo_text p{
+    font-size: 18px;
+    margin: 0, 0, 0, 0;
+  }
+  #jumbo_text img{
+    height: 30px;
+  }
+  #jumbo_slogan {
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  #jumbo_text{
+    text-align: center;
+    top: 0px; 
+    left: 20px;
+    right: 20px;
+    padding-top: 1px;
+  }
+  #jumbo_text h1{
+    font-size: 15px;
+  }
+  #jumbo_text p{
+    font-size: 15px;
+  }
+  #jumbo_text img{
+    height: 25px;
+  }
+  #jumbo_slogan {
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+
+  }
+}
+
+@media screen and (max-width: 9080px) {
+    .slogan {
+        margin-top: 80px;
+        margin-bottom: 0px; 
+        margin-left: 2px;
+        font-weight: bolder;  }  
+}
+
+@media screen and (max-width: 9080px) {
+    .sub_slogan {
+        margin-top: 20px;
+        margin-left: 3px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+        font-size: 32px; }
+}
+
+
+@media(max-width:410px){
+
+}
+@media(min-width:411px){
+
+}
+@media(min-width:610px){
+
+}
+
+.subscribe {
+    margin-left: 8px;
+}
+/*프론트 페이지 커버*/
+
+
+
+
+
+/* 상품 소개 */
+
+#wrapper {
+    max-width: 100%;
+    width:810px;
+    margin:0 auto;
+    margin-top: 1.5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#subInfo .info {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#subInfo {
+    text-align: center;
+}
+
+ul.feed {
+    position:relative;
+    width:100%;
+    font-size:0;
+}
+
+ul.feed li {
+    position:relative;
+    display:inline-block;
+    margin:0 5px 5px 0;
+}
+
+ul.feed li img {
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 764px) {
+    ul.feed li img {
+        width:200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 614px) {
+    ul.feed li img {
+        width:160px;
+        height: 160px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    ul.feed li img {
+        width:130px;
+        height: 130px;
+        object-fit: cover;
+    }
+    .info h2 {
+        font-size: 25px;
+    }
+    .info h4 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    ul.feed li img {
+        width:100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .info h2 {
+        font-size: 18px;
+    }
+    .info h4 {
+        font-size: 10px;
+    }
+}
+/* 상품 소개 */
+
+
+
+
+
+
+.front_page3 {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+    
+.aaaa {
+    color: black;
+}
+
+.aaaaa {
+     color: black;
+    font-size: 30px;
+    font-weight: 500
+}
+
+/*푸터*/
+footer {
+    left:0px; 
+    bottom:0px; 
+    height:250px; 
+    width:100%; 
+    background-color: darkslategray; 
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    position: absolut;
+    
+}
+
+.footer_img {
+    border:0px;
+    margin:0px;
+    padding:0px;
+    margin: 20px;
+}
+    
+.footer_script {
+    text-align: center;
+}
+/*푸터*/
+
+
